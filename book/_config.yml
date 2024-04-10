@@ -8,7 +8,7 @@
 title: Becoming a medical imaging AI expert # The title of the book. Will be placed in the left navbar.
 author: Nicholas Cullen # The author of the book
 copyright: "2024" # Copyright year to be placed in the footer
-logo: "" # A path to the book logo
+logo: logo.png # A path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
