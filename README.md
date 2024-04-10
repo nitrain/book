@@ -9,11 +9,39 @@ A final published draft is expected in early 2025.
 By going through this book, you will learn how to tackle any medical imaging AI problem in Python. That includes building regression, classification, or image-to-image models for any type of medical imaging processing task. It is split up into the following sections that operate more-or-less independently in case you want to sharpen your skills in one particular area:
 
 - Handling medical images
+  - Installing libraries
+  - Reading and writing
+  - Visualization
+  - Applying operations
+  - Basic processing
 - Loading imaging datasets
-- Creating batches of images
+  - Using datasets
+  - Loading from file
+  - Loading from the cloud
+  - Processing transforms
+- Generating image batches
+  - Using dataloaders
+  - Types of inputs
+  - Augmentation transforms
+  - Using samplers
+- Creating models
+  - Using architectures
+  - Pre-trained models
+  - Custom models
 - Training models
+  - Local GPU training
+  - Cloud-based training
+  - Training on nitrain.dev
 - Explaining model results
-- Sharing and deploying models
+  - About explainers
+  - Occlusion algorithms
+  - Visualizing results
+- Sharing models
+  - Registering models
+  - Writing model cards
+  - Advice for publications
+- Appendix
+  - References
 
 ## About the author
 

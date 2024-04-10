@@ -12,17 +12,28 @@ parts:
       - file: 01-04-operating-on-images
   - caption: 2. Loading imaging datasets
     chapters:
-      - file: markdown
-  - caption: 3. Creating batches of images
+      - file: 02-01
+      - file: 02-02
+      - file: 02-03
+      - file: 02-04
+  - caption: 3. Generating image batches
     chapters:
-      - file: markdown-notebooks
-  - caption: 4. Training models
+      - file: 03-01
+      - file: 03-02
+      - file: 03-03
+      - file: 03-04
+  - caption: 4. Creating models
+    chapters:
+      - file: 04-01
+      - file: 04-02
+      - file: 04-03
+  - caption: 5. Training models
     chapters:
       - file: markdown-copy
-  - caption: 5. Explaining model results
+  - caption: 6. Explaining model results
     chapters:
       - file: markdown-copy2
-  - caption: 6. Sharing and deploying models
+  - caption: 6. Sharing models
     chapters:
       - file: markdown-copy3
   - caption: Appendix
