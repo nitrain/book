@@ -27,8 +27,12 @@ Nitrain is not the only framework that makes it easier to train AI models on med
 
 While most of the frameworks above provide at least one of these features, none of them provide all like nitrain does.
 
-## Table of contents
+## Receiving help
 
-```{tableofcontents}
+If you have questions about the book specifically, you can post an issue at github.com/nitrain/book. The source code for the book is publically available at that repository. If you have questions about nitrain, you can post an issue at github.com/nitrain/nitrain. For any other inquiries, you can send a question at nitrain.dev/contact or contact the author directory.
 
-```
+## About the author
+
+Nicholas Cullen has a BS from University of Florida and a PhD from Lund University in Sweden. He has 10+ years of experience developing tools for medical imaging in Python, R, and C++. He has published 40+ high-impact journal articles on fluid and imaging biomarkers, clinical trials, and neurodegenerative diseases.
+
+He started nitrain to make medical imaging AI more accessible to clinical researchers. to If you have any questions, he can be reached at nickcullen31@gmail.com.

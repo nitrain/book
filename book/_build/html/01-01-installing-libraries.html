@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Prerequisite libraries &#8212; Becoming a medical imaging AI expert with nitrain</title>
+    <title>Installing libraries &#8212; Becoming a medical imaging AI expert with nitrain</title>
   
   
   
@@ -57,7 +57,7 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '01-01-installing-ants';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01-01-installing-libraries';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Reading and writing" href="01-02-reading-and-writing-images.html" />
@@ -178,7 +178,7 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Handling medical images</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Prerequisite libraries</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Installing libraries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01-02-reading-and-writing-images.html">Reading and writing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01-03-visualizing-images.html">Visualization</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01-04-operating-on-images.html">Applying operations</a></li>
@@ -273,7 +273,7 @@
       
       
       
-      <li><a href="https://github.com/ncullen93/Becoming a medical imaging AI expert with nitrain/issues/new?title=Issue%20on%20page%20%2F01-01-installing-ants.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/ncullen93/Becoming a medical imaging AI expert with nitrain/issues/new?title=Issue%20on%20page%20%2F01-01-installing-libraries.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -303,7 +303,7 @@
       
       
       
-      <li><a href="_sources/01-01-installing-ants.ipynb" target="_blank"
+      <li><a href="_sources/01-01-installing-libraries.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -387,7 +387,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Prerequisite libraries</h1>
+    <h1>Installing libraries</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -409,8 +409,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="prerequisite-libraries">
-<h1>Prerequisite libraries<a class="headerlink" href="#prerequisite-libraries" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="installing-libraries">
+<h1>Installing libraries<a class="headerlink" href="#installing-libraries" title="Link to this heading">#</a></h1>
 <p>Before you can train models on medical imaging datasets, it’s important to learn how to handle medical images in Python. That primarily entails reading and writing medical imaging files. Additionally, it can be helpful to have a good set of tools for visualizing and operating on medical images once read into memory.</p>
 <p>This section will teach you how to handle medical images in Python using the <code class="docutils literal notranslate"><span class="pre">ants</span></code> library available at <a class="reference external" href="https://www.github.com/antsx/antspy">https://www.github.com/antsx/antspy</a>. Advanced normalization tools (ANTs) is a well-established ecosystem for processing and analyzing medical images in C++, Python, and R. The Python version of ANTs lets you read medical images in a way that inter-operates seamlessly with numpy and tensors such as those from tensorflow or torch.</p>
 <section id="installing-antspy">

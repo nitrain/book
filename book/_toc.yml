@@ -6,7 +6,7 @@ root: intro
 parts:
   - caption: Handling medical images
     chapters:
-      - file: 01-01-installing-ants
+      - file: 01-01-installing-libraries
       - file: 01-02-reading-and-writing-images
       - file: 01-03-visualizing-images
       - file: 01-04-operating-on-images
