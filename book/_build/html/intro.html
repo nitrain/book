@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to your Jupyter Book &#8212; Becoming a medical imaging AI expert with nitrain</title>
+    <title>Introduction &#8212; Becoming a medical imaging AI expert with nitrain</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
+    <link rel="next" title="Content with notebooks 2" href="notebooks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -173,14 +173,33 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
+                    Introduction
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">About medical images</span></p>
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks 2</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Loading imaging datasets</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating batches of images</span></p>
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Training models</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy.html">Markdown Files</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Explaining model results</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy2.html">Markdown Files</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Sharing and deploying models</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy3.html">Markdown Files</a></li>
 </ul>
 
     </div>
@@ -353,7 +372,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -364,11 +385,25 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Introduction</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-nitrain">Why use nitrain?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#similar-frameworks">Similar frameworks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of contents</a><ul class="nav section-nav flex-column">
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -378,20 +413,72 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Link to this heading">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
+<p>Welcome to the book that takes you through the entire workflow of building medical imaging AI models. This book will teach you how to accomplish any medical imaging AI task using the nitrain framework. Nitrain builds on top of any of your favorite frameworks such as pytorch or keras by giving you high-level tools specifically aimed at training models on medical imaging datasets.</p>
+<p>Each chapter of this book can be read independently, so if you are looking to enhance your skills in one specific area then feel free to skip around.</p>
+<p>The book is generally organized according to the various steps of a medical imaging AI workflow:</p>
+<ul class="simple">
+<li><p>reading medical images</p></li>
+<li><p>creating medical imaging datasets</p></li>
+<li><p>loading batches of augmented medical images</p></li>
+<li><p>training models</p></li>
+<li><p>explaining model results</p></li>
+<li><p>sharing and hosting models</p></li>
+</ul>
+<section id="why-use-nitrain">
+<h2>Why use nitrain?<a class="headerlink" href="#why-use-nitrain" title="Link to this heading">#</a></h2>
+<p>You may be wondering why we use nitrain to teach you about medical imaging AI workflows. The simple answer is that nitrain is the easiest way to train medical imaging AI models using pytorch or keras. It provides a very clear set of classes that help users easily conceptualize the entire medical imaging AI workflow.</p>
+<section id="similar-frameworks">
+<h3>Similar frameworks<a class="headerlink" href="#similar-frameworks" title="Link to this heading">#</a></h3>
+<p>Nitrain is not the only framework that makes it easier to train AI models on medical imaging datasets. Others include ANTsPyNet, Nobrainer, MONAI, Huggingface, and Pytorch Lightning - all fantastic frameworks. However, nitrain provides some features that others dont:</p>
+<ul class="simple">
+<li><p>ability to train and manage models in the cloud directly from the console</p></li>
+<li><p>sharing of models with the commmunity and easy fine-tuning of pre-trained models</p></li>
+<li><p>algorithms to help you explain model weights in the context of your medical images</p></li>
+</ul>
+<p>While most of the frameworks above provide at least one of these features, none of them provide all like nitrain does.</p>
+</section>
+</section>
+<section id="table-of-contents">
+<h2>Table of contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">About medical images</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks 2</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Loading imaging datasets</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks 2</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating batches of images</span></p>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 </div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Training models</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy.html">Markdown Files</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Explaining model results</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy2.html">Markdown Files</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Sharing and deploying models</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="markdown-copy3.html">Markdown Files</a></li>
+</ul>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -425,11 +512,11 @@ It does not go in-depth into any particular topic - check out <a class="referenc
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="markdown.html"
+       href="notebooks.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown Files</p>
+        <p class="prev-next-title">Content with notebooks 2</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -440,7 +527,26 @@ It does not go in-depth into any particular topic - check out <a class="referenc
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-nitrain">Why use nitrain?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#similar-frameworks">Similar frameworks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of contents</a><ul class="nav section-nav flex-column">
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

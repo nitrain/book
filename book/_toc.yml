@@ -3,7 +3,22 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: About medical images
+    chapters:
+      - file: notebooks
+  - caption: Loading imaging datasets
+    chapters:
+      - file: markdown
+  - caption: Creating batches of images
+    chapters:
+      - file: markdown-notebooks
+  - caption: Training models
+    chapters:
+      - file: markdown-copy
+  - caption: Explaining model results
+    chapters:
+      - file: markdown-copy2
+  - caption: Sharing and deploying models
+    chapters:
+      - file: markdown-copy3
