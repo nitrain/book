@@ -13,33 +13,35 @@ By going through this book, you will learn how to tackle any medical imaging AI 
   - Reading and writing
   - Visualization
   - Applying operations
-  - Basic processing
+  - Basic image processing
 - Loading imaging datasets
   - Using datasets
   - Loading from file
   - Loading from the cloud
-  - Processing transforms
+  - Applying fixed transforms
 - Generating image batches
   - Using dataloaders
   - Types of inputs
-  - Augmentation transforms
+  - Applying random transforms
   - Using samplers
 - Creating models
   - Using architectures
   - Pre-trained models
   - Custom models
+  - Losses and optimizers
 - Training models
-  - Local GPU training
+  - Local training
   - Cloud-based training
   - Training on nitrain.dev
+  - Callbacks and logging
 - Explaining model results
-  - About explainers
+  - Using explainers
   - Occlusion algorithms
   - Visualizing results
 - Sharing models
   - Registering models
   - Writing model cards
-  - Advice for publications
+  - Writing publications
 - Appendix
   - References
 

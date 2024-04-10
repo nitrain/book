@@ -6,10 +6,10 @@ root: intro
 parts:
   - caption: 1. Handling medical images
     chapters:
-      - file: 01-01-installing-libraries
-      - file: 01-02-reading-and-writing-images
-      - file: 01-03-visualizing-images
-      - file: 01-04-operating-on-images
+      - file: 01-01
+      - file: 01-02
+      - file: 01-03
+      - file: 01-04
   - caption: 2. Loading imaging datasets
     chapters:
       - file: 02-01
@@ -27,15 +27,23 @@ parts:
       - file: 04-01
       - file: 04-02
       - file: 04-03
+      - file: 04-04
   - caption: 5. Training models
     chapters:
-      - file: markdown-copy
+      - file: 05-01
+      - file: 05-02
+      - file: 05-03
+      - file: 05-04
   - caption: 6. Explaining model results
     chapters:
-      - file: markdown-copy2
-  - caption: 6. Sharing models
+      - file: 06-01
+      - file: 06-02
+      - file: 06-03
+  - caption: 7. Sharing models
     chapters:
-      - file: markdown-copy3
+      - file: 07-01
+      - file: 07-02
+      - file: 07-03
   - caption: Appendix
     chapters:
-      - file: markdown-copy5
+      - file: 08-01
