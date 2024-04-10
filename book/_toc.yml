@@ -4,24 +4,27 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Handling medical images
+  - caption: 1. Handling medical images
     chapters:
       - file: 01-01-installing-libraries
       - file: 01-02-reading-and-writing-images
       - file: 01-03-visualizing-images
       - file: 01-04-operating-on-images
-  - caption: Loading imaging datasets
+  - caption: 2. Loading imaging datasets
     chapters:
       - file: markdown
-  - caption: Creating batches of images
+  - caption: 3. Creating batches of images
     chapters:
       - file: markdown-notebooks
-  - caption: Training models
+  - caption: 4. Training models
     chapters:
       - file: markdown-copy
-  - caption: Explaining model results
+  - caption: 5. Explaining model results
     chapters:
       - file: markdown-copy2
-  - caption: Sharing and deploying models
+  - caption: 6. Sharing and deploying models
     chapters:
       - file: markdown-copy3
+  - caption: Appendix
+    chapters:
+      - file: markdown-copy5
