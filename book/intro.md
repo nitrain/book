@@ -4,9 +4,9 @@
 You are viewing a working draft of this book, with expected completion in early 2025.
 :::
 
-Welcome to the book that takes you through the entire workflow of building medical imaging AI models in Python.
+Welcome to the book that takes you through the entire workflow of building medical imaging AI models in Python. This book does not focus on specific tasks such as segmentation or registration, but instead attempts to give you the tools to more generally accomplish any medical imaging AI task.
 
-This book will teach you how to accomplish any medical imaging AI task using the nitrain framework. Nitrain builds on top of popular libraries such as pytorch or keras to give you high-level tools specifically aimed at training models on medical imaging datasets.
+There is a large programming component to this book, as you will learn how to use the nitrain framework to accomplish your medical imaging AI goals. Nitrain builds on top of popular libraries such as pytorch or keras to give you high-level tools specifically aimed at training models on medical imaging datasets.
 
 ## In this book
 
