@@ -10,6 +10,7 @@ parts:
       - file: 01-02
       - file: 01-03
       - file: 01-04
+      - file: 01-05
   - caption: 2. Loading imaging datasets
     chapters:
       - file: 02-01
