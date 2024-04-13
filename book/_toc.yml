@@ -35,12 +35,12 @@ parts:
       - file: 05-02
       - file: 05-03
       - file: 05-04
-  - caption: 6. Explaining model results
+  - caption: 6. Explaining results
     chapters:
       - file: 06-01
       - file: 06-02
       - file: 06-03
-  - caption: 7. Sharing models
+  - caption: 7. Sharing and deploying
     chapters:
       - file: 07-01
       - file: 07-02

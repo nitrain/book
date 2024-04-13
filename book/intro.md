@@ -1,7 +1,7 @@
 # Introduction
 
 :::{note}
-You are viewing a working draft of this book, with expected completion in early 2025.
+You are viewing a working draft with expected completion in early 2025.
 :::
 
 Welcome to the book that takes you through the entire workflow of building medical imaging AI models in Python. This book does not focus on specific tasks such as segmentation or registration, but instead attempts to give you the tools to more generally accomplish any medical imaging AI task.
