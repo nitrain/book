@@ -2,6 +2,8 @@
 
 This book will take you through the entire medical imaging AI workflow from data to deployment using the nitrain framework and pytorch. A final published draft is expected in early 2025.
 
+The book is publically available at [book.nitrain.dev](https://book.nitrain.dev).
+
 ## About the book
 
 By going through this book, you will learn how to tackle any medical imaging AI problem in Python. That includes building regression, classification, or image-to-image models for any type of medical imaging processing task. It is split up into multiple parts that operate more-or-less independently in case you want to sharpen your skills in one particular area.
