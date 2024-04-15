@@ -1,49 +1,10 @@
 # Becoming a medical imaging AI expert with Python
 
-This book will take you through the entire medical imaging AI workflow from data to deployment using the nitrain framework and pytorch.
-
-A final published draft is expected in early 2025.
+This book will take you through the entire medical imaging AI workflow from data to deployment using the nitrain framework and pytorch. A final published draft is expected in early 2025.
 
 ## About the book
 
-By going through this book, you will learn how to tackle any medical imaging AI problem in Python. That includes building regression, classification, or image-to-image models for any type of medical imaging processing task. It is split up into the following sections that operate more-or-less independently in case you want to sharpen your skills in one particular area:
-
-- Handling medical images
-  - Installing libraries
-  - Reading and writing
-  - Visualization
-  - Applying operations
-  - Basic image processing
-- Loading imaging datasets
-  - Using datasets
-  - Loading from file
-  - Loading from the cloud
-  - Applying fixed transforms
-- Generating image batches
-  - Using dataloaders
-  - Types of inputs
-  - Applying random transforms
-  - Using samplers
-- Creating models
-  - Using architectures
-  - Pre-trained models
-  - Custom models
-  - Losses and optimizers
-- Training models
-  - Local training
-  - Cloud-based training
-  - Training on nitrain.dev
-  - Callbacks and logging
-- Explaining model results
-  - Using explainers
-  - Occlusion algorithms
-  - Visualizing results
-- Sharing models
-  - Registering models
-  - Writing model cards
-  - Writing publications
-- Appendix
-  - References
+By going through this book, you will learn how to tackle any medical imaging AI problem in Python. That includes building regression, classification, or image-to-image models for any type of medical imaging processing task. It is split up into multiple parts that operate more-or-less independently in case you want to sharpen your skills in one particular area.
 
 ## About the author
 
