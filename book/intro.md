@@ -30,6 +30,10 @@ All in all, this book takes you through the entire workflow of reading in medica
 
 You may be wondering why we use nitrain to teach you about medical imaging AI workflows. The simple answer is that nitrain is the easiest way to train medical imaging AI models using pytorch or keras. It provides a very clear set of classes that help users easily conceptualize the entire medical imaging AI workflow.
 
+### Using nitrain-image
+
+Besides the nitrain library, which makes it easy to train, manage, and deploy medical imaging AI models using any framework, the nitrain ecosystem also includes the nitrain-image library. Nitrain-image is a library that lets you read / write, visualize, and operate on medical imaging data in a natural, pythonic way. If you've used numpy before, then nitrain-image will be easy to learn..
+
 ### Similar frameworks
 
 Nitrain is not the only framework that makes it easier to train AI models on medical imaging datasets. Others include ANTsPyNet, Nobrainer, MONAI, Huggingface, and Pytorch Lightning - all fantastic frameworks. However, nitrain provides some features that others dont:
