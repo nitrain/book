@@ -4,20 +4,20 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 1. Handling medical images
+  - caption: 1. Handling images
     chapters:
       - file: 01-01
       - file: 01-02
       - file: 01-03
       - file: 01-04
       - file: 01-05
-  - caption: 2. Loading imaging datasets
+  - caption: 2. Loading datasets
     chapters:
       - file: 02-01
       - file: 02-02
       - file: 02-03
       - file: 02-04
-  - caption: 3. Generating image batches
+  - caption: 3. Generating batches
     chapters:
       - file: 03-01
       - file: 03-02
