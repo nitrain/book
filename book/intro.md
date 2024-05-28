@@ -30,10 +30,6 @@ All in all, this book takes you through the entire workflow of reading in medica
 
 You may be wondering why we use nitrain to teach you about medical imaging AI workflows. The simple answer is that nitrain is the easiest way to train medical imaging AI models using pytorch or keras. It provides a very clear set of classes that help users easily conceptualize the entire medical imaging AI workflow.
 
-### Using nitrain-image
-
-Besides the nitrain library, which makes it easy to train, manage, and deploy medical imaging AI models using any framework, the nitrain ecosystem also includes the nitrain-image library. Nitrain-image is a library that lets you read / write, visualize, and operate on medical imaging data in a natural, pythonic way. If you've used numpy before, then nitrain-image will be easy to learn..
-
 ### Similar frameworks
 
 Nitrain is not the only framework that makes it easier to train AI models on medical imaging datasets. Others include ANTsPyNet, Nobrainer, MONAI, Huggingface, and Pytorch Lightning - all fantastic frameworks. However, nitrain provides some features that others dont:
@@ -46,10 +42,10 @@ While most of the frameworks above provide at least one of these features, none 
 
 ## Receiving help
 
-If you have questions about the book specifically, you can post an issue at github.com/nitrain/book. The source code for the book is publically available at that repository. If you have questions about nitrain, you can post an issue at github.com/nitrain/nitrain. For any other inquiries, you can send a question at www.nitrain.dev/contact or contact the author directory.
+If you have questions about the book specifically, you can post an issue at github.com/nitrain/book. The source code for the book is publically available at that repository. If you have questions about nitrain, you can post an issue at github.com/nitrain/nitrain.
 
 ## About the author
 
-Nicholas Cullen has a BS in Systems Engineering from University of Florida and a PhD in Neuroscience from Lund University in Sweden. He has 10+ years of experience developing tools for medical imaging in Python, R, and C++. He has published 40+ high-impact journal articles on biomarkers, clinical trials, and neurodegenerative diseases.
+Nicholas Cullen has a BS in Systems Engineering from University of Florida and a PhD in Neuroscience from Lund University in Sweden. He has 10+ years of experience developing tools for medical imaging in Python, R, and C++. He has published 40+ high-impact journal articles on biomarkers, clinical trials, and neurodegenerative diseases and has an H-index of 29.
 
-He started nitrain to make medical imaging AI more accessible to clinical researchers. If you have any questions, he can be reached at nickcullen31@gmail.com.
+He started nitrain to make medical imaging AI more accessible to non-imaging experts. If you have any questions, he can be reached at nickcullen31@gmail.com.
