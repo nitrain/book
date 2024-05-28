@@ -48,6 +48,7 @@ parts:
   - caption: Case Studies
     chapters:
       - file: 08-01
+      - file: 08-02
   - caption: Appendix
     chapters:
       - file: 09-01
