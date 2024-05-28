@@ -45,6 +45,9 @@ parts:
       - file: 07-01
       - file: 07-02
       - file: 07-03
-  - caption: Appendix
+  - caption: Case Studies
     chapters:
       - file: 08-01
+  - caption: Appendix
+    chapters:
+      - file: 09-01

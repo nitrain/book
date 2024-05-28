@@ -24,6 +24,8 @@ A unique feature of medical imaging is that reoccuring, or fixed, parts of the i
 
 Finally, in `7. Sharing and deploying` we wrap up by showing you how to make your model available for others to fine-tune or to use for prediction on new data. We give some advice on how to publish your models as well.
 
+There is an also a `Case Studies` section that takes you through some fully contained examples from start to finish, along with an `Appendix` section with some extra informations such as references and external links.
+
 All in all, this book takes you through the entire workflow of reading in medical images to explaining and sharing a trained model.
 
 ## About nitrain
