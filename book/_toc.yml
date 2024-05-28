@@ -28,7 +28,6 @@ parts:
       - file: 04-01
       - file: 04-02
       - file: 04-03
-      - file: 04-04
   - caption: 5. Training models
     chapters:
       - file: 05-01
