@@ -1,4 +1,4 @@
-# Introduction
+# Practical medical imaging AI techniques in Python
 
 :::{note}
 You are viewing a working draft with expected completion in early 2025.
