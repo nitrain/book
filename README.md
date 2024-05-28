@@ -1,4 +1,4 @@
-# Becoming a medical imaging AI expert with Python
+# Practical medical imaging AI techniques with Python
 
 This book will take you through the entire medical imaging AI workflow from data to deployment using the nitrain framework and pytorch. A final published draft is expected in early 2025.
 
