@@ -10,8 +10,9 @@ parts:
       - file: 01-02
       - file: 01-03
       - file: 01-04
-  - caption: 2. Loading datasets
+  - caption: 2. Mapping collections
     chapters:
+      - file: 02-00
       - file: 02-01
       - file: 02-02
       - file: 02-03
