@@ -10,7 +10,7 @@ parts:
       - file: 01-02
       - file: 01-03
       - file: 01-04
-  - caption: Mapping collections
+  - caption: Mapping datasets
     chapters:
       - file: 02-01
       - file: 02-02
