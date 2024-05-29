@@ -6,13 +6,13 @@ root: intro
 parts:
   - caption: Handling images
     chapters:
-      - file: 01-01
-      - file: 01-02
-      - file: 01-03
-      - file: 01-04
+      - file: 01-Introduction
+      - file: 01-Reading-Writing
+      - file: 01-Image-Operations
+      - file: 01-Visualization
   - caption: Mapping collections
     chapters:
-      - file: 02-00
+      - file: 02-Introduction
       - file: 02-01
       - file: 02-02
       - file: 02-03
