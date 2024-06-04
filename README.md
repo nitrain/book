@@ -10,7 +10,7 @@ By going through this book, you will learn how to tackle any medical imaging AI 
 
 ## About the author
 
-Nicholas Cullen has a BS in Systems Engineering from University of Florida and a PhD in Neuroscience from Lund University in Sweden. He has 10+ years of experience developing tools for medical imaging in Python, R, and C++. He has published 40+ high-impact journal articles on biomarkers, clinical trials, and neurodegenerative diseases.
+Nicholas Cullen has a BS in Systems Engineering from University of Florida and a PhD in Biostatistics from Lund University in Sweden. He has 10+ years of experience developing tools for medical imaging in Python, R, and C++. He has published 40+ high-impact journal articles on biomarkers, clinical trials, and neurodegenerative diseases.
 
 He started nitrain to make medical imaging AI more accessible to clinical researchers. If you have any questions, he can be reached at nickcullen31@gmail.com.
 
